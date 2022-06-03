@@ -27,6 +27,6 @@ Puedes crear un pull request al proyecto
 Ejecute `ng serve` para un servidor de desarrollo. Navegue a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 
 ---
-⌨️por [Zuri Agudelo](https://github.com/zagu5) 😊
+⌨️por [Zurisadai Agudelo G.](https://github.com/zagu5) 😊
 
 
