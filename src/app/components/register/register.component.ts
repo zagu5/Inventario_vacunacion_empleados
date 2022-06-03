@@ -22,11 +22,11 @@ export class RegisterComponent implements OnInit {
     private formBuilder: FormBuilder,
     private _auth: AuthService
     ) {
-     this.createForm()
+  
    }
 
   ngOnInit(): void {
-    //this.createForm() 
+    this.createForm() 
   }
 
  createForm(){
