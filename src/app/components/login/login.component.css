@@ -1,0 +1,83 @@
+.container-login{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    left: 450px;
+    top: 34px;
+    
+    background: #00B1E2;
+    border-radius: 10px;
+}
+
+.title{
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: 9%;
+    bottom: 77.75%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+
+    color: #FFFFFF;
+}
+#username{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 35.5%;
+    bottom: 54.5%;
+    border: 2px solid #FFB814;
+    border-radius: 20px;
+}
+#password{
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 50%;
+    bottom: 40%;
+    border: 2px solid #FFB814;
+    border-radius: 20px;
+}
+.btn-login{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 31%;
+    right: 30.75%;
+    top: 74%;
+    bottom: 16.5%;
+
+    background: #FFB814;
+    border-radius: 20px;
+}

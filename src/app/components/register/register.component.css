@@ -1,0 +1,198 @@
+.container-register{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    /* width: 850px;
+    height: 1165px; */
+    left: 450px;
+    top: 34px;
+    background: #00B1E2;
+    border-radius: 25px;
+}
+.title{
+    position: absolute;
+    left: 27.5%;
+    right: 27.25%;
+    top: 6%;
+    bottom: 85.17%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#document{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 26.33%;
+    bottom: 67.33%;
+    border: 2px solid #FFB814;
+    border-radius: 10px
+}
+.text-document{
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 32.33%;
+    bottom: 67.33%;
+    color: red
+    
+}
+.text-minlength{
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 32.33%;
+    bottom: 67.33%;
+    color: red
+    
+}
+#firstname{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 35.83%;
+    bottom: 57.83%;
+    border: 2px solid #FFB814;
+    border-radius: 10px
+}
+.text-firstname{
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 42.33%;
+    bottom: 67.33%;
+    color: red
+}
+#lastname{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 45.33%;
+    bottom: 48.33%;
+    border: 2px solid #FFB814;
+    border-radius: 10px;
+}
+.text-lastname{
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 51.33%;
+    bottom: 67.33%;
+    color: red
+}
+#email{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 54.83%;
+    bottom: 38.83%;
+    border: 2px solid #FFB814;
+    border-radius: 10px;
+}
+.text-email{
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 61.33%;
+    bottom: 67.33%;
+    color: red
+}
+.text-email1{
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 61.33%;
+    bottom: 67.33%;
+    color: red
+}
+#password{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 64.33%;
+    bottom: 29.33%;
+    border: 2px solid #FFB814;
+    border-radius: 10px;
+}
+.text-password{
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 71.33%;
+    bottom: 67.33%;
+    color: red
+}
+
+.btn-register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 80.5%;
+    bottom: 13.17%;
+    background: #FFB814;
+    border-radius: 20px;
+}
+.btn-signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 89.5%;
+    bottom: 4.33%;
+    background: #FFB814;
+    border-radius: 20px;
+}

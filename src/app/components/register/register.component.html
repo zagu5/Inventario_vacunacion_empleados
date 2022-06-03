@@ -1,0 +1,52 @@
+<div class="container-register">
+    <div class="title">
+        <p>Registro</p> 
+    </div>
+  
+    <form class="form-register" [formGroup]="formRegister" (ngSubmit)="onRegister()">
+        <div class="input-document">
+            <input type="number" formControlName="document"  placeholder="Cédula" required id="document" min="10" max="10" >
+            <div class="text-document" 
+            *ngIf="formRegister.controls['document'].touched && formRegister.controls['document'].errors?.['required']">
+            Campo requerido
+            </div>
+            <div class="text-minlength" 
+            *ngIf="formRegister.controls['document'].touched && formRegister.controls['document'].errors?.['minlength']">
+            Su documento debe ser de {{formRegister.controls['document'].errors?.['minlength']?.requiredLength}} digitos
+            </div>
+        </div>
+        <div class="input-firstname">
+            <input type="text" formControlName="firstname" placeholder="Nombre" required id="firstname" onkeydown="return /[a-z]/i.test(event.key)">        
+            <div class="text-firstname" 
+            *ngIf="formRegister.controls['firstname'].touched && formRegister.controls['firstname'].errors?.['required']">
+            Campo requerido
+            </div>
+        </div>
+        <div class="input-lastname">
+            <input type="text" formControlName="lastname" placeholder="Apellido" required id="lastname" onkeydown="return /[a-z]/i.test(event.key)">
+            <div class="text-lastname" 
+            *ngIf="formRegister.controls['lastname'].touched && formRegister.controls['lastname'].errors?.['required']">
+            Campo requerido
+            </div>
+        </div>
+        <div class="email">
+            <input type="email" formControlName="email" placeholder="Email" id="email" required>
+            <div class="text-email" 
+            *ngIf="formRegister.controls['email'].touched && formRegister.controls['email'].errors?.['required']">
+            Campo requerido
+            </div>
+            <div class="text-email1" 
+            *ngIf="formRegister.controls['email'].touched && formRegister.controls['email'].errors?.['email']">
+            ingrese un correo valido
+            </div>
+        </div>
+        <div class="password">
+            <input type="password" formControlName="password" placeholder="Password" id="password"  minlength="6" maxlength="20" pattern="[A-Za-z0-9]{6,20}">
+            <div class="text-password" 
+            *ngIf="formRegister.controls['password'].touched && formRegister.controls['password'].errors?.['required']">
+            Campo requerido
+            </div>
+        </div>
+        <button class="btn-register" type="submit" [disabled]="formRegister.invalid" >Registro</button>
+    </form>
+</div>
