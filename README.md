@@ -1,27 +1,32 @@
 # InventarioVacunacionEmpleados
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+Inventario vacunacion empleados es una aplicación para llevar el registro del inventario del estado de vacunación de los empleados.
+La aplicación contará con 2 roles: Administrador y Empleado.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instalación
 
-## Code scaffolding
+Puedes instalarlo desde npm
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`$ npm install`
 
-## Build
+O también clonando el repositorio
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+`$ git clone url`
 
-## Running unit tests
+## Cómo contribuir
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Puedes crear un pull request al proyecto
 
-## Running end-to-end tests
+## Construido con 🛠️
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+*Este proyecto esta construido con [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
-## Further help
+## Servidor de desarrollo
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Ejecute `ng serve` para un servidor de desarrollo. Navegue a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
+
+---
+⌨️por [Zuri Agudelo](https://github.com/zagu5) 😊
+
+
