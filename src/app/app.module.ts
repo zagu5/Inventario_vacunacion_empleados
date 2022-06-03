@@ -19,7 +19,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
 import { environment } from 'src/environments/environment';
-import { PerfilComponent } from './components/perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +30,7 @@ import { PerfilComponent } from './components/perfil/perfil.component';
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    PerfilComponent
+
   ],
   imports: [
     BrowserModule,
